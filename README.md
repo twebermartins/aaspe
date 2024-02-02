@@ -80,27 +80,16 @@ https://admin-shell-io.github.io/aasx-package-explorer/devdoc/
 
 ## Other Open Source Implementations of AAS
 
-At the time of this writing (2020-08-14), we are aware of the following related
-implementations of asset administration shells (AAS):
+Further implementations of Asset Administration Shells (AAS) with [Eclipse Digital Twin Topl-Level Project](https://projects.eclipse.org/projects/dt):
 
-* **BaSyx** (https://projects.eclipse.org/projects/technology.basyx) provides
+* **Eclipse BaSyx** ([https://projects.eclipse.org/projects/technology.basyx](https://projects.eclipse.org/projects/dt.basyx)) provides
   various modules to cover a broad scope of Industrie 4.0 (including AAS).
-  Hence its substantially more complex architecture. 
-  
-* **PyI40AAS** (https://git.rwth-aachen.de/acplt/pyi40aas) is a Python 
-  module for manipulating and validating AAS. 
-  
-* **SAP AAS Service** (https://github.com/SAP/i40-aas) provides a system based
-  on Docker images implementing the RAMI 4.0 reference architecture (including
-  AAS).
+  Hence its substantially more complex architecture.
 
-*	**NOVAAS** (https://gitlab.com/gidouninova/novaas) provides an implementation
-  of the AAS concept by using JavaScript and Low-code development platform (LCDP)
-  Node-Red.
+* **Eclipse AAS4J** ([https://projects.eclipse.org/projects/dt.aas4j](https://projects.eclipse.org/projects/dt.aas4j)) implements the specification of the Asset Administration Shell (AAS) such as metamodels, submodels, serialization and deserialization modules based on the AAS specifications.
 
-* **Java Dataformat Library** (https://github.com/admin-shell-io/java-serializer)
-  provides serializer and derserializer for various dataformats as well as the
-  creation and validation of AAS, written in Java.
+* **Eclipse AAS Web Client** ([https://projects.eclipse.org/projects/dt.aaswc](https://projects.eclipse.org/projects/dt.aaswc)) is a viewer and client for interaction with Asset Administration Shell information models.
+  
 
 While these projects try to implement a wider scope of programatic features,
 AASX Package Explorer, in contrast, is a tool with graphical user interface 
